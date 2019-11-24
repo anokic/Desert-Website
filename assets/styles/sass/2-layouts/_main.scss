@@ -3,22 +3,25 @@ main {
   margin-top: -120px;
   background: $mainBackground;
   article {
-  padding: 0 11% 0 9%;
+    padding: 0 11% 0 9%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     position: relative;
+    overflow: hidden;
 
     .textBehind {
       position: absolute;
       bottom: 225px;
       text-align: justify;
       left: -10px;
+      overflow: hidden;
       h1 {
         font-size: 14.3vw;
         font-weight: 900;
         color: #D2A477;
+        overflow: hidden;
       }
 
       &:after {
