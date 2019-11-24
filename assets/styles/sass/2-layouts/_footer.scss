@@ -1,5 +1,5 @@
 footer {
-  padding-top: 170px;
+  padding-top: 500px;
   height: 1000px;
   background: $footer;
   display: flex;
@@ -14,6 +14,7 @@ footer {
       justify-content: center;
       align-items: center;
       flex-direction: column;
+      margin-top: 400px;
       .subHeading {
         font-family: 'Aribau Grotesk' sans-serif;
         color: #1f160e;
@@ -29,18 +30,176 @@ footer {
         font-weight: 800;
         color: #fff;
         margin-top: 15px;
-        width: 60%;
+        width: 360px;
         line-height: 1.35;
+        margin-bottom: 90px;
 
         .darker {
           color: #2d3131;
         }
       }
+
+      .sponsors {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        figure:nth-child(1){
+          img {
+            width: 90%;
+          }
+        }
+        figure:nth-child(2){
+          img {
+            width: 120%;
+          }
+        }
+        figure:nth-child(1),figure:nth-child(2),figure:nth-child(3){
+          margin-right: 64px;
+        }
+        figure {
+          width: 15%;
+        }
+
+        img {
+          width: 80%;
+        }
+
+        figure {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+
+    button {
+      background: transparent;
+      border: 2px solid #363B37;
+      color: #363B37;
+      padding: 32px 51px;
+      font-size: 1.3rem;
+      font-family: 'Aribau Grotesk',sans-serif;
+      font-weight: 600;
+      width: 317px;
+      height: 82px;
+      position: relative;
+      top:  139px;;
+      left: 50%;
+      transform: translateX(-50%);
+      outline: none;
+      cursor: pointer;
+      transition: all .3s ease;
+      position: relative;
+      margin-right: -120px;
+      z-index: 3;
+
+      .showText {
+        position: relative;
+        left: -26px;
+        letter-spacing: 3px;
+      }
+
+      .arrow {
+        display: block;
+        background: url('img/arrow.png') no-repeat center center;
+        background-size: cover;
+        position: absolute;
+        width: 35px;
+        height: 15px;
+        right: 55px;
+        top: calc(50% + 2px);
+        transform: translateY(-50%);
+        transition: all .3s ease-in;
+      }
+      &:hover {
+        transform: translateX(-50%) translateY(-5px);
+      }
+
+      &:active {
+        left: calc(50% + 10px);
+        transform: translateX(-50%) translateY(-5px) scale(.98);
+      }
     }
   }
 
   .botFooter {
+    width: 100%;
+    min-height: 640px;
+    background-color: $footer;
+    background-image: url('img/footer.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: relative;
 
+    figure {
+      position: absolute;
+      top: 250px;
+      left: 50%;
+      transform: translateX(-50%);
+      img {
+      }
+    }
+
+    .footerEnding {
+
+      position: absolute;
+      bottom: 75px;
+      height: 100px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90%;
+      border-top: 1px solid #716555;
+      padding-top: 54px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      .footerLeft, .footerRight {
+        font-family: Freight;
+        font-size: 1.45rem;
+        font-weight: 400;
+        color: #604733;
+      }
+
+      .footerRight {
+        position: absolute;
+        right: 0;
+        ul {
+
+          li {
+            display: inline-flex;
+            cursor: pointer;
+            border-bottom: 1px solid transparent;
+            transition: all .4s ease-in-out;
+            &:hover {
+              border-color: #604733;
+            }
+          }
+          li:nth-child(1),li:nth-child(2){
+            margin-right: 65px;
+          }
+        }
+      }
+
+      .footerMid {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        .logo {
+
+          h3 {
+            font-family: 'Core Sans G Rounded';
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: #fff;
+          }
+        }
+      }
+    }
   }
 
 }
