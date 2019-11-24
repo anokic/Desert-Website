@@ -1,0 +1,22 @@
+*, body {
+  box-sizing: border-box;
+}
+
+html {
+  -ms-overflow-style: none;
+  overflow-x: hidden;
+
+  &::-webkit-scrollbar {
+      display: none;
+  }
+}
+
+.hide {
+  // display: none!important;
+  opacity: 0!important;
+}
+
+.show {
+  // display: block!important;
+  opacity: 1!important;
+}

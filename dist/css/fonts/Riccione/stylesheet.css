@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Riccione-Serial';
+    src: url('Riccione-Serial-Regular.woff2') format('woff2'),
+        url('Riccione-Serial-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Riccione-Serial';
+    src: url('Riccione-Serial-Bold.woff2') format('woff2'),
+        url('Riccione-Serial-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
