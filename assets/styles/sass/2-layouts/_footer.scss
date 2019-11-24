@@ -1,4 +1,46 @@
 footer {
+  padding-top: 170px;
   height: 1000px;
   background: $footer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .topFooter {
+    .sponsorContent{
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .subHeading {
+        font-family: 'Aribau Grotesk' sans-serif;
+        color: #1f160e;
+        position: relative;
+        font-size: .9rem;
+        letter-spacing: 3px;
+        font-weight: 400;
+      }
+
+      .footerHeading {
+        font-family: 'Freight';
+        font-size: 2.5rem;
+        font-weight: 800;
+        color: #fff;
+        margin-top: 15px;
+        width: 60%;
+        line-height: 1.35;
+
+        .darker {
+          color: #2d3131;
+        }
+      }
+    }
+  }
+
+  .botFooter {
+
+  }
+
 }

@@ -81,27 +81,25 @@ window.onload = () => {
   ///                                    ///
   ///            SLIDER START            ///
   ///                                    ///
+  /// STATIC SLIDER
 
   var counter = 0;
   const card = document.querySelectorAll('.sliderCard');
   function slider(){
-      console.log(counter);
       if(counter == 1){
-          reset();
-          card[counter - 1].classList.add('left');
-          card[counter + 1].classList.add('center');
-          card[counter].classList.add('behind');
-          card[counter + 2].classList.add('right');
+        reset();
+        card[counter - 1].classList.add('left');
+        card[counter + 1].classList.add('center');
+        card[counter].classList.add('behind');
+        card[counter + 2].classList.add('right');
       } else if(counter == 2){
         reset();
-
         card[counter - 1].classList.add('right');
         card[counter + 1].classList.add('center');
         card[counter].classList.add('left');
         card[counter - 2].classList.add('behind');
       } else if (counter == 3){
         reset();
-
         card[counter - 1].classList.add('behind');
         card[counter - 3].classList.add('right');
         card[counter].classList.add('left');
@@ -109,18 +107,15 @@ window.onload = () => {
       } else if(counter == 0){
         reset();
       }
-
   }
 
   function reset(){
-
     for(cards of card){
       cards.className = 'sliderCard';
     }
   }
 
   document.querySelector('.arrowRight').addEventListener('click', ()=>{
-
     if(counter == 3){
       counter = 0;
     } else {
@@ -138,3 +133,7 @@ window.onload = () => {
     slider();
   });
 }
+
+///                                    ///
+///            SLIDER START            ///
+///                                    ///

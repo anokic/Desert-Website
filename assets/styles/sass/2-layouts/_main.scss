@@ -663,7 +663,7 @@ main {
         .sliderCard {
           position: absolute;
           color: #fff;
-          transition: all .3s ease;
+          transition: all .5s ease-in-out;
           left: 0;
           .sliderCardSubHead {
               position: absolute;
