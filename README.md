@@ -1,31 +1,27 @@
-# My-Project-Starter-Kit
+# Desert Website
 
-I have made a project starter kit so i don't have to repeat myself from project to project. I'm leaving it here so i can clone it remotely.
-The project starter kit has:
+JPG to HTML
 
-1. **HTML**<br/>
-     &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp;  **HTML** is connected to the CSS and JavaScript with expected meta tags and jQuery
-      
-2. **CSS** compiler **SASS**<br/>
- &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp; Reset style present **reset.scss** <br/>
- &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp; **SASS** folder structure connected and imported withing **main.scss** 
+Website is made for pure fun and experiece no profit or commercial use. I loved the design wanted to recreate it in HTML.
 
-3. **JavaScript** **GULP 4**<br/>
- &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp; **SASS to CSS** compiler withing GULP with additional featers like: <br/>
- &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp; **JavaScript** and **CSS** minifer, <br/>
- &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp; **CSS** autoprefixer, <br/>
- &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp;       Cache Bust to reset **CSS** and **JavaScript**, <br/>
- &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp;       Watch for changes <br/> 
-        
-To use GULP 4 install: <br/>
-NODE.JS, <br/>
-GitBash <br/> <br/>
+Using photoshop i deconstructed the whole website and images so i can use on website. I learned so much about Photoshop and started to enjoy it.
 
-Run GitBash and commands: <br/>
-&nbsp;   &nbsp; npm install --global gulp-cli
+What i done:
 
+1. **HTML** / Sematic **HTML5** 
+2. **CSS** / reset.css / **SASS**
+3. **JavaScript** / **jQuery**
+4. **GULP**
+&nbsp; &nbsp;<br/> a) Minify **JavaScript** and **CSS**
+&nbsp; &nbsp;<br/> b) Autoprexises
+&nbsp; &nbsp;<br/> c) Cache
+&nbsp; &nbsp;<br/> d) **SASS** watch
+5. **PHOTOSHOP**
 
-Run GitBash or cmd in folder then run command: <br/>
-**gulp**
+I made custom video controls for the video with **JavaScript** and static 3D slider with vanilla **JavaScript**
 
-![Folder structure](https://i.ibb.co/48ZvjrG/brisi.png)
+Design was made by https://dribbble.com/shots/7147835-GOTOEGYPT-Travel-Landing-Page all thanks go design creator. A beautiful masterpeace.
+
+Its still in progress. Only made for desktop.
+
+![Website image](https://i.imgur.com/hIh9fEZ.jpg)
