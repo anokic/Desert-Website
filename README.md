@@ -2,7 +2,7 @@
 
 JPG to HTML
 
-Website is made for pure fun and experiece no profit or commercial use. I loved the design wanted to recreate it in HTML.
+Website is made for pure fun and experiece no profit or commercial use. I loved the design wanted to recreate it in HTML. Plane and simple.
 
 Using photoshop i deconstructed the whole website and images so i can use on website. I learned so much about Photoshop and started to enjoy it.
 
