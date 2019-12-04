@@ -42,6 +42,42 @@ header {
             opacity: .9;
             font-size: 1.4rem;
             font-weight: 500;
+
+            &::before {
+              content: '[';
+              margin-left: 10px;
+              transform: translateX(0px);
+            }
+            &::after {
+              content: ']';
+              margin-right: 10px;
+              transform: translateX(0px);
+            }
+
+            &::before , &::after {
+              display: inline-block;
+              font-family: 'Raleway', sans-serif;
+              transition: transform 0.3s, opacity 0.2s;
+              opacity: 0;
+            }
+
+            &:hover {
+
+              &::before {
+                transform: translateX(-10px);
+                opacity: 1;
+              }
+              &::after {
+                transform: translateX(10px);
+                opacity: 1;
+              }
+            }
+            // transition: border .3s ease-in-out;
+            // border-bottom: 1px solid transparent;
+            //
+            // &:hover {
+            //   border-color: $maincolor;
+            // }
           }
         }
 
@@ -238,6 +274,11 @@ header {
       position: absolute;
       right: -50px;
       transform: rotate(-90deg);
+
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
 
       span {
         font-family: 'Core Sans G Rounded';
