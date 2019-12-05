@@ -1,5 +1,15 @@
 window.onload = () => {
 
+  /// NAV ANIMATION ///
+
+    document.querySelector('.hamburger').addEventListener('click',()=>{
+
+      document.querySelector('.topHeader').classList.toggle('topHeaderAnim');
+    });
+
+
+  /// END NAV ///
+
   ///
   /// CUSTOM VIDEO PLAYER CONTROLLS
   ///

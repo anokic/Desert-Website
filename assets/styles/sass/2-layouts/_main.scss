@@ -620,6 +620,7 @@ main {
       .arrowLeft,.arrowRight {
         position: absolute;
         bottom: -26px;
+        cursor: pointer;
 
         .arrow {
           background: url('img/arrow.png') no-repeat center center;
@@ -766,8 +767,18 @@ main {
     padding-top: 28.4%!important;
   }
 }
+@media only screen and (max-width: 1300px){
+  .textBehind {
+    bottom: 235px!important;
+  }
+}
 
 @media only screen and (max-width: 1000px){
+
+  main .botMain {
+    height: 610px!important;
+  }
+
   main article {
     padding: 0 3% 0 3%!important;
   }
@@ -809,4 +820,131 @@ main {
     width: 50%!important;
     left: 0!important;
   }
+}
+
+@media only screen and (max-width: 900px){
+  .textBehind {
+    bottom: 245px!important;
+  }
+  .sliderMenu {
+    width: 40%!important;
+    padding-top: 57%!important;
+  }
+
+  .arrowLeft {
+    z-index: 1;
+  }
+
+  .arrowLeft, .arrowRight {
+    .arrow {
+      background-image: url('img/arrowWhite.png')!important;
+    }
+
+    .textArrow {
+      color: #fff!important;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px){
+
+  .topMain {
+    padding: 0!important;
+  }
+
+  .video-content {
+    width: 100%!important;
+  }
+
+  body {
+    overflow-x: hidden!important;
+  }
+
+  .midMainTopHeading {
+    h3 {
+      width: 100%!important;
+    }
+  }
+
+  .sliderMenu {
+    width: 50%!important;
+    padding-top: 71%!important;
+  }
+
+  .topText {
+    flex-direction: column!important;
+    p {
+      width: 100%!important;
+    }
+    p:nth-child(1){
+      margin-right: 0!important;
+      margin-bottom: 40px!important
+    }
+  }
+
+  .midMainTopHeading {
+
+    h3 {
+      width: 80!important;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 600px){
+  .textBehind {
+    bottom: 250px!important;
+  }
+}
+
+@media only screen and (max-width: 550px){
+
+  .topFooter button, .showMore {
+    transform: translateX(-50%) scale(.9)!important;
+  }
+
+  .headingBotMain {
+    p {
+      width: 100%!important;
+    }
+  }
+  main article .botMainHeading .video-content {
+    top: -140px;
+  }
+
+  main .midMain {
+      padding-top: 230px!important;
+  }
+
+  .sliderMenu {
+    width: 60%!important;
+    padding-top: 85%!important;
+  }
+
+  .botMainHeading {
+    margin-top: 180px!important;
+  }
+}
+@media only screen and (max-width: 450px){
+  .sliderMenu {
+      width: 70%!important;
+      padding-top: 99.2%!important;
+  }
+}
+@media only screen and (max-width: 390px){
+  .topFooter button,.showMore {
+    transform: translateX(-50%) scale(.8)!important;
+  }
+  .sliderMenu {
+    width: 80%!important;
+    padding-top: 113.8%!important;
+  }
+}
+@media only screen and (max-width: 330px){
+  .sliderMenu {
+    width: 90%!important;
+    padding-top: 128%!important;
+  }
+
+
 }

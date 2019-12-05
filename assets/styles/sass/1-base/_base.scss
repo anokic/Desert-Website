@@ -12,11 +12,15 @@ html {
 }
 
 .hide {
-  // display: none!important;
   opacity: 0!important;
 }
 
 .show {
-  // display: block!important;
   opacity: 1!important;
+}
+
+@media only screen and (max-width: 1000px){
+  html {
+    font-size: 14px!important;
+  }
 }
