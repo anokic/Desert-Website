@@ -9,7 +9,7 @@ Using photoshop i deconstructed the whole website and images so i can use on web
 What i done:
 
 1. **HTML** / Sematic **HTML5** 
-2. **CSS** / reset.css / **SASS**
+2. **CSS** responsive design / reset.css / **SASS**
 3. **JavaScript** / **jQuery**
 4. **GULP**
 &nbsp; &nbsp;<br/> a) Minify **JavaScript** and **CSS**
@@ -21,7 +21,5 @@ What i done:
 I made custom video controls for the video with **JavaScript** and static 3D slider with vanilla **JavaScript**
 
 Design was made by https://dribbble.com/shots/7147835-GOTOEGYPT-Travel-Landing-Page all thanks go design creator. A beautiful masterpeace.
-
-Its still in progress. Only made for desktop.
 
 ![Website image](https://i.imgur.com/hIh9fEZ.jpg)
