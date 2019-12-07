@@ -18,13 +18,15 @@ What i done:
 &nbsp; &nbsp;<br/> d) **SASS** watch
 5. **PHOTOSHOP**
 
+Speed test image is at the bottom of the Readme.
+
 I made custom video controls for the video with **JavaScript** and static 3D slider with vanilla **JavaScript**
 
 Design was made by https://dribbble.com/shots/7147835-GOTOEGYPT-Travel-Landing-Page all thanks go design creator. A beautiful masterpeace.
 
 ![Website image](https://i.imgur.com/hIh9fEZ.jpg)
 
-and speed test:
+Speed test:
 
 ![Speed Test](https://i.ibb.co/CH9qt8x/spped-Test.png)
 
