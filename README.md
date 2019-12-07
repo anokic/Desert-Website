@@ -23,3 +23,8 @@ I made custom video controls for the video with **JavaScript** and static 3D sli
 Design was made by https://dribbble.com/shots/7147835-GOTOEGYPT-Travel-Landing-Page all thanks go design creator. A beautiful masterpeace.
 
 ![Website image](https://i.imgur.com/hIh9fEZ.jpg)
+
+and speed test:
+
+![Speed Test](https://i.ibb.co/CH9qt8x/spped-Test.png)
+
