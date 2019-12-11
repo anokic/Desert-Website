@@ -13,7 +13,7 @@ What i done:
 3. **JavaScript** / **jQuery**
 4. **GULP**
 &nbsp; &nbsp;<br/> a) Minify **JavaScript** and **CSS**
-&nbsp; &nbsp;<br/> b) Autoprefixer
+&nbsp; &nbsp;<br/> b) **CSS** autoprefixer
 &nbsp; &nbsp;<br/> c) Cache
 &nbsp; &nbsp;<br/> d) **SASS** watch
 5. **PHOTOSHOP**
