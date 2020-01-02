@@ -22,7 +22,7 @@ Speed test image is at the bottom of the Readme.
 
 I made custom video controls for the video with **JavaScript** and static 3D slider with vanilla **JavaScript**
 
-Demo: http://brankoanokic.com/projects/gotoegypt/index.html
+You can see demo of the website : http://brankoanokic.com/projects/gotoegypt/index.html
 
 Design was made by https://dribbble.com/shots/7147835-GOTOEGYPT-Travel-Landing-Page all thanks go design creator. A beautiful masterpeace.
 
